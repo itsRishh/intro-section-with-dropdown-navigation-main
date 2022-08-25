@@ -1,0 +1,141 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+  /* font-weight: 700; */
+  font-size: 15px;
+  padding: 20px;
+}
+
+a:hover {
+  color: hsl(0, 0%, 8%);
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Epilogue', sans-serif;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.brand {
+  font-weight: 700;
+  color: hsl(0, 0%, 8%);
+  display: inline-block;
+  font-size: 2.3rem;
+}
+
+.btn-1 {
+  background-color: hsl(0, 0%, 98%);
+  border: 2px solid hsl(0, 0%, 41%);
+  margin-left: 15px;
+  border-radius: 0.8rem;
+  color: hsl(0, 0%, 41%);
+  transition: 0.3s ease;  
+  padding: 12px 22px;
+  font-size: 15px;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.btn-1:hover {
+  border: 2px solid hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 8%);
+  cursor: pointer;
+  transition: 0.3s ease;
+  
+}
+
+.btn-2 {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+  font-family: 'Epilogue', sans-serif;
+  font-size: 1rem;
+  padding: 15px 25px;
+  transition: 0.3s ease-in;
+  border-radius: 0.8rem;
+}
+
+.btn-2:hover {
+  background-color: hsl(0, 0%, 98%);
+  border: 2px solid hsl(0, 0%, 8%);
+  border-radius: 0.8rem;
+  color: hsl(0, 0%, 8%);
+  transition: 0.3s ease;
+}
+
+.col-1 {
+  display: inline-block;
+  position: relative;
+  right: 290px;
+}
+
+.col-2 {
+  display: inline-block;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-head {
+  font-size: 5rem;
+}
+
+#navigation {
+  /* background-color: antiquewhite; */
+  padding: 0 30px;
+  margin-top: 25px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+}
+
+.t-col-1 {
+  width: 35%;
+  margin-right: 155px;
+  padding: 100px 0; 
+}
+
+.t-col-2{
+  width: 30%;
+  height: 100%;
+}
+
+.t-contri {
+  display: flex;
+  position: relative;
+  margin: 80px 0 0;
+}
+
+.t-contri img {
+  padding: 0 30px 0 0;
+  height: 100%;
+}
+
+.t-des {
+  color: hsl(0, 0%, 41%);
+  font-weight: 500;
+  line-height: 1.5;
+  padding-right: 100px;
+  margin: 55px 0;
+}
+
+.col-2-img {
+  width: 100%;
+}
